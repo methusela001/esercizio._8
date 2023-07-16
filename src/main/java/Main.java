@@ -7,12 +7,15 @@ public class Main {
 
         //  [A]: 2 <= 2 && !true
             boolean A = 2 <= 2 && !true;
+
         //  [B]: !false && 3 > 2
-            boolean B = !false && 3 > 2;// il !false pone la condizione true
+            boolean B = !false && 3 > 2; // (il !false pone la condizione true)
+
         //  [C]: considering that t=false and f=true: !(!t || f)
             boolean t = false;
             boolean f = true;
             boolean C = !(!t || f);
+
        //   [D]: 6 > 6 ^ !(true && true)
             boolean D = 6 > 6 ^ !(true && true);
 
